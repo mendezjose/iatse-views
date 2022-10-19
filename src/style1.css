@@ -1,0 +1,40 @@
+.tree * {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  line-height: unset !important;
+  color: #1e1e1e;
+}
+
+.tree {
+  background-color: #00000009;
+  padding: 1rem;
+  border-radius: 0.375rem;
+}
+
+body {
+  background-color: #ddc9b824;
+  color: #1e1e1e !important;
+  width: 50%;
+}
+
+.fa-check-square:before {
+  color: #0d6efd;
+}
+
+.rct-icons-fa4 .rct-icon-uncheck::before {
+  color: #00000040;
+}
+
+/* .react-checkbox-tree label:hover {
+  background: rgba(30, 30, 30, 0.05) !important;
+}
+
+.form-control:focus {
+  color: rgb(30, 30, 30) !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-color: rgb(254, 191, 82, 0.8) !important;
+  outline: 0px;
+  box-shadow: rgb(254, 191, 82, 0.5) 0px 0px 0px 0.25rem !important;
+} */
